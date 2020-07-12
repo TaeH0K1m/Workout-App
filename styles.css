@@ -1,0 +1,35 @@
+body {
+  max-width: 600px;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+.display h1 {
+  text-align: center;
+}
+
+.button {
+  text-align: center;
+  margin: 20px auto;
+}
+
+.sets {
+  display: flex;
+}
+.set {
+  text-align: center;
+  border: 1px black solid;
+  width: 100px;
+  height: 100px;
+  margin: 10px 10px;
+}
+
+.set__num {
+  display: block;
+  margin-top: 15px;
+}
+
+.set__reps {
+  font-size: 27px;
+  margin-top: 100px;
+}
